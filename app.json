@@ -23,8 +23,28 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "your-app-scheme",
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9992346f-15c6-417e-9cc7-c9602b0521c7"
+      }
+    },
+    "owner": "downtown_ilinky",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9992346f-15c6-417e-9cc7-c9602b0521c7"
     }
   }
 }
